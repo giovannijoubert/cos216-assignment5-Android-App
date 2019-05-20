@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cluedUpGrey"
+    android:backgroundTint="@color/cluedUpGrey"
+    >
+
+    <TextView
+        android:id="@+id/txtFilterHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Filter Results"
+        android:textColor="@color/colorPrimary"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtGenre3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <ImageView
+        android:id="@+id/imgBottom2"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFilter"
+        app:srcCompat="@drawable/text_background" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="1"
+        android:background="@drawable/gradient_button"
+        android:fontFamily="@font/rubik"
+        android:text="Filter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekRating" />
+
+    <Spinner
+        android:id="@+id/spinGenre"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/rubik_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Rating"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekRating"
+        app:layout_constraintStart_toStartOf="@+id/seekRating"
+        app:layout_constraintTop_toBottomOf="@+id/spinGenre"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtGenre3"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Genre"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinGenre"
+        app:layout_constraintStart_toStartOf="@+id/spinGenre" />
+
+    <SeekBar
+        android:id="@+id/seekRating"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:max="10"
+        android:progress="3"
+        android:progressTint="@color/colorPrimary"
+        android:thumbTint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignIn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinGenre"
+        app:layout_constraintVertical_bias="0.111" />
+
+</android.support.constraint.ConstraintLayout>
+

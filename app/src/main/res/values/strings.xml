@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CluedUP</string>
+    <string name="title_activity_discover">Discover</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_logout">Logout</string>
+
+    <string-array name="genres">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="genre_values">
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>14</item>
+        <item>36</item>
+        <item>Horror</item>
+        <item>10402</item>
+        <item>9648</item>
+        <item>10749</item>
+        <item>878</item>
+        <item>53</item>
+        <item>10752</item>
+        <item>37</item>
+    </string-array>
+
+</resources>
